@@ -3,6 +3,9 @@ html{
   font-size: 18px;
   font-family: Helvetica;
 }
+body{
+  margin: 0;
+}
 /* Header */
 
 .container{
@@ -128,6 +131,7 @@ h5{
   background-color: black;
   color: white;
   padding: 1rem 2rem;
+  font-size: 1rem;
 }
 
 /* Footer */
@@ -142,8 +146,14 @@ footer{
   background-color: black;
   height: 5rem;
   display: flex;
+  margin-top: 4rem;
 
 }
 h6{
   color: white;
+  font-size: 1rem;
+}
+.text{
+  margin-top: 0;
+  border: 2px solid pink;
 }
