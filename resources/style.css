@@ -42,12 +42,13 @@ background-color: black;
   background-size: cover;
   height: 25rem;
   display: flex;
-}
 
+}
 .black-banner{
   background-color: black;
   max-width: 20rem;
   padding: 2rem 3rem;
+
 }
 .container-banner{
   width: 960px;
@@ -210,13 +211,26 @@ width: 47%;
   }
 .black-banner{
     width: 100%;
-
+    padding: 1rem 2rem;
+    margin-top: 10rem;
 }
-
-
-
-
-
+#watch-hide, #glasses-hide{
+display: none;
+}
+.item{
+  width: 90%;
+  margin: auto;
+}
+.location-container{
+  flex-direction: column;
+}
+.location, .hours{
+  width: 90%;
+  margin: auto;
+}
+h6{
+  margin: 0 auto;
+}
 
 
 
