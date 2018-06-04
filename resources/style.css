@@ -12,11 +12,10 @@ body{
   background-color: black;
   padding-top: 0.12rem;/* 0.66rem */
   padding-bottom: 0.12rem;/* 0.66rem */
-  width: 960px;
+  max-width: 960px;
   margin: auto;
   display: flex;
   align-items: center;
-
 }
 
 h3{
@@ -43,12 +42,11 @@ background-color: black;
   background-size: cover;
   height: 25rem;
   display: flex;
-
-
 }
+
 .black-banner{
   background-color: black;
-  width: 20rem;
+  max-width: 20rem;
   padding: 2rem 3rem;
 }
 .container-banner{
@@ -81,7 +79,7 @@ nav{
   max-width: 100%;
 }
 .container-nav{
-  width: 960px;
+  max-width: 960px;
   margin: auto;
 }
 /* Products */
@@ -104,7 +102,7 @@ nav{
 
 .product-container{
   display: flex;
-  width: 960px;
+  max-width: 960px;
   margin: auto;
   justify-content: space-between;
   margin-top: 3rem;
@@ -122,7 +120,7 @@ h4{
 /* Location & Hours */
 
 .location-container{
-  width: 960px;
+  max-width: 960px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -144,7 +142,7 @@ h5{
 /* Footer */
 
 footer{
-  width: 960px;
+  max-width: 960px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -152,7 +150,6 @@ footer{
 }
 
 .footer-container{
-  width: 100%;
   background-color: black;
   margin-top: 4rem;
   height: 5rem;
@@ -163,4 +160,65 @@ h6{
   color: white;
   font-size: 1rem;
   font-weight: normal;
+}
+.tablet{
+  display: none;
+}
+/* Tablet */
+
+@media only screen and (max-width: 1024px) {
+                                 /* Nav-Tablet */
+  h2{
+    font-size: 0.77rem;
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+.tablet{
+  display: flex;
+  align-items: center;
+}
+.web{
+  display: none;
+}
+ul{
+  margin: 0 auto;
+}
+                               /* Products-Tablet */
+#glasses-hide{
+  display: none;
+}
+.item{
+width: 47%;
+}
+                               /* Location-Tablet */
+.location, .hours{
+  width: 35%;
+}
+}
+/* Phone */
+@media only screen and (max-width: 470px){
+
+  h1, h2{
+  font-weight: bold;
+  }
+  h2{
+    font-size: 0.77rem;
+  }
+  h1{
+    font-size: 1rem;
+  }
+.black-banner{
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
 }
